@@ -1,0 +1,66 @@
+.mytrip-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mytrip-inner {
+  padding: 20px;
+  border: 1px solid #3047665e;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.Main {
+  padding: 20px;
+}
+.date {
+  color: #334155cc;
+}
+.cancle-button {
+  background-color: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  font-family: Roboto;
+  padding: 10px;
+  border-radius: 6px;
+}
+.empty-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.no-trip-heading {
+  color: #334155;
+  font-weight: 500;
+  font-size: 24px;
+}
+.no-trip-description {
+  color: #334155cc;
+  font-weight: 400;
+  font-size: 16px;
+}
+.no-trip-button {
+  background-color: #2563eb;
+  color: #ffffff;
+  width: 133;
+  height: 32;
+  top: 510px;
+  left: 620px;
+  gap: 10px;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  border-width: 0px;
+}
+
+@media (max-width: 586px) {
+  .mytrip-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}

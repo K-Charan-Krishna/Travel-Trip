@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #334155;
+  color: #ffffff;
+  padding: 20px;
+}
+.header-head {
+  font-family: Caveat;
+  color: #ffffff;
+}
+.mole-li {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+}
+.header-button {
+  height: 30px;
+  width: 80px;
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #334155;
+  font-family: Roboto;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+@media (max-width: 586px) {
+  .header {
+    display: none;
+  }
+}

@@ -1,0 +1,56 @@
+.sidebar {
+  width: 220px;
+  background-color: white;
+  padding: 20px;
+  border-right: 2px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px 0 0 8px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle.active {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.tick-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+.label {
+  margin-left: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.label.active-label {
+  color: #1d4ed8;
+  font-weight: 500;
+}
+
+@media (max-width: 586px) {
+  .sidebar {
+    display: none;
+  }
+}
